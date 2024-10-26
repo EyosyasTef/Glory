@@ -26,10 +26,9 @@ header{
     position:sticky;
     display: flex;
     justify-content: space-between;
-    border-bottom-left-radius:10px;
-    border-bottom-right-radius:10px;
     height:65px;
-    background-color: rgb(41,41,41);
+    width:100vw;
+    background-image: linear-gradient(black,rgb(81, 81, 81),transparent);
 }
 #menubtn{
     transition: .5s;
