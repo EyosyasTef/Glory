@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <link type="text/css" rel="stylesheet" href="style.css"/>
+<script scr="index.js" defer></script>
   <meta charset="UTF-8" />
   <title>Glory transportation</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,24 +27,25 @@
             </ul>
         </div>
     </div>
+
     <div>
-        <!--div of large text-->
-        <div class="hwrapper"><h1 class="mainh">QUALITY TRANSPORTATION</h1></div>
-            <!--div of header bg image-->
-        <div class="imgwrapper"><img id="headerimg" src="https://vehicle-images.dealerinspire.com/0176-110004260/4T1C11AK9RU206421/969cfc36560aedcfb4824c973a7aa718.jpg" alt="image">
-        <!--div of quotes-->
+            <!--div of header bg images-->
+            <div class="slider">
+                <h1 class="mainh">QUALITY TRANSPORTATION</h1>
+        <div class="slides wrapper">
+            <img class="slide" src="https://vehicle-images.dealerinspire.com/0176-110004260/4T1C11AK9RU206421/969cfc36560aedcfb4824c973a7aa718.jpg" alt="Image #1">
+            <img class="slide" src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg" alt="Image #2">
+            <img class="slide" src="https://img.freepik.com/free-photo/majestic-mountain-peak-tranquil-winter-landscape-generated-by-ai_188544-15662.jpg" alt="Image #3">
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094</button>
+        <button class="next" onclick="nextSlide()">&#10095</button>
         </div>
     </div>
 </header>
 <!--main content/body-->
-<body class="content-wrapper">
-    <main>
-       <div id="box">
-        
-        </div> 
-    </main>
 <!--content cards-->
 <div class="cardGrid">
+    <div class="card">sample</div>
     <div class="card">sample</div>
     <div class="card">sample</div>
     <div class="card">sample</div>
